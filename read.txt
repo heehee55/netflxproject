@@ -1,0 +1,16 @@
+git config --list
+
+git init
+git remote add origin https://github.com/heehee55/netflxproject.git
+git add .
+git remote -v
+git status
+git config --global user.name "heehee55"
+git commit -m
+git commit -m "firstcommit(브랜치 이름)"
+git push origin master
+
+--------
+이후에 추가 수정사항이 발생
+git add .
+git commit -m "수정된 파일(브랜치) 이름"
